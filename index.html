@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denton PD BPOC #22</title>
+    <!-- Load Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Google Font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply the Inter font as the default sans-serif font */
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+<body class="bg-slate-50">
+
+    <!-- Header -->
+    <header class="bg-slate-900 text-white p-6 shadow-lg">
+        <div class="container mx-auto flex items-center justify-between">
+            <!-- Logo -->
+            <div>
+                <!-- 
+                  I've used the general City of Denton logo here. 
+                  You can replace this 'src' with a specific Denton PD logo file if you have one.
+                -->
+                <img src="denton-pd-logo.png" alt="Denton Police Department Logo" class="h-16 w-auto">
+            </div>
+            
+            <!-- Title -->
+            <div class="text-right">
+                <h1 class="text-3xl md:text-4xl font-bold">Denton Police Department</h1>
+                <h2 class="text-xl md:text-2xl font-light opacity-90">Graduating Class BPOC #22</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto p-4 md:p-8">
+
+        <!-- Official Class Photo Section -->
+        <section class="my-8 md:my-12">
+            <h3 class="text-4xl font-bold text-slate-900 text-center mb-12">Official Class Photo</h3>
+            <div class="max-w-6xl mx-auto bg-white rounded-lg shadow-2xl overflow-hidden">
+                <!-- User's uploaded class photo -->
+                <img src="BPOC 22.jpg" alt="Denton PD BPOC #22 Official Class Photo" 
+                     class="w-full h-auto object-cover"
+                     onerror="this.onerror=null; this.src='https://placehold.co/1200x800/374151/FFFFFF?text=BPOC+%2322+Class+Photo+Not+Found'; this.alt='Placeholder for BPOC #22 class photo';">
+            </div>
+        </section>
+
+        <!-- Our Commitment Section -->
+        <section class="my-16 py-16 bg-white rounded-lg shadow-xl">
+            <div class="max-w-4xl mx-auto text-center px-6">
+                <h3 class="text-4xl font-bold text-slate-900 mb-4">Our Commitment</h3>
+                <h4 class="text-2xl md:text-3xl font-semibold text-blue-700 italic mb-8">"Service Before Self"</h4>
+                <p class="text-lg text-slate-700 leading-relaxed">
+                    We, the members of BPOC #22, have completed our rigorous training and are proud to begin our service with the Denton Police Department. This journey has tested our limits and forged a bond of camaraderie and shared purpose. We are dedicated to protecting and serving the community of Denton with integrity, courage, and compassion.
+                </p>
+                <p class="text-lg text-slate-700 leading-relaxed mt-6">
+                    We are also proud to have trained alongside our colleagues from other distinguished agencies, including officers from <strong>UNT Police</strong>, <strong>Aubrey PD</strong>, and the <strong>Denton Fire Department</strong>. This multi-agency class strengthened our bonds and our shared commitment to serving our respective communities.
+                </p>
+            </div>
+        </section>
+
+        <!-- Class Video Section -->
+        <section class="my-16 py-16 bg-white rounded-lg shadow-xl">
+            <h3 class="text-4xl font-bold text-slate-900 text-center mb-12">BPOC #22: Our Journey</h3>
+            <div class="max-w-4xl mx-auto px-6">
+                <!-- Responsive Aspect Ratio Container -->
+                <div class="aspect-video w-full rounded-lg overflow-hidden shadow-lg">
+                    <!-- 
+                      Embed Your Video Here:
+                      1. Upload your video to YouTube or Vimeo.
+                      2. Click "Share" -> "Embed".
+                      3. Copy the <iframe> code and paste it here, replacing the placeholder iframe below.
+                      4. Make sure to add `class="w-full h-full"` to your new iframe tag.
+                    -->
+                    <iframe 
+                        class="w-full h-full" 
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                        title="Class Video Placeholder" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <p class="text-center text-slate-600 mt-4 italic">A look back at our time in the academy.</p>
+            </div>
+        </section>
+
+        <!-- Class Leadership Section -->
+        <section class="my-16 py-16">
+            <h3 class="text-4xl font-bold text-slate-900 text-center mb-16">Class Leadership</h3>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+                <!-- Card 1: Class President -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x400/6B7280/FFFFFF?text=Officer" alt="Class President Photo" class="w-full h-64 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Officer Mathew Grajales</h4>
+                        <p class="text-blue-700 font-medium mt-2">Class President</p>
+                    </div>
+                </div>
+
+                <!-- Card 2: Vice President -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x400/6B7280/FFFFFF?text=Officer" alt="Vice President Photo" class="w-full h-64 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Officer Brittany Iverson</h4>
+                        <p class="text-blue-700 font-medium mt-2">Vice President</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Class Historian (Baccera) -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x400/6B7280/FFFFFF?text=Officer" alt="Class Historian Photo" class="w-full h-64 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Officer Alejandra Baccera</h4>
+                        <p class="text-blue-700 font-medium mt-2">Class Historian</p>
+                    </div>
+                </div>
+
+                <!-- Card 4: Class Historian (Lazano) -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x400/6B7280/FFFFFF?text=Officer" alt="Class Historian Photo" class="w-full h-64 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Officer Adamarys Lazano</h4>
+                        <p class="text-blue-700 font-medium mt-2">Class Historian</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Class Awards Section -->
+        <section class="my-16 py-16">
+            <h3 class="text-4xl font-bold text-slate-900 text-center mb-16">Class Awards</h3>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+                <!-- Card 1: Valedictorian -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x400/6B7280/FFFFFF?text=Officer" alt="Valedictorian Photo" class="w-full h-64 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Officer Joseph Fry</h4>
+                        <p class="text-blue-700 font-medium mt-2">Valedictorian</p>
+                    </div>
+                </div>
+
+                <!-- Card 2: Salutatorian -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x400/6B7280/FFFFFF?text=Officer" alt="Salutatorian Photo" class="w-full h-64 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Officer Matthew Grajales</h4>
+                        <p class="text-blue-700 font-medium mt-2">Salutatorian</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Top Gun -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x400/6B7280/FFFFFF?text=Officer" alt="Top Gun Award Photo" class="w-full h-64 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Officer Jack Powell</h4>
+                        <p class="text-blue-700 font-medium mt-2">Top Gun Award</p>
+                    </div>
+                </div>
+
+                <!-- Card 4: Top Physical Fitness -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x400/6B7280/FFFFFF?text=Officer" alt="Top Physical Fitness Award Photo" class="w-full h-64 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Officer Ewelina Jamrozek</h4>
+                        <p class="text-blue-700 font-medium mt-2">Top Physical Fitness Award</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Meet the Graduates Section -->
+        <section class="my-16 py-16">
+            <h3 class="text-4xl font-bold text-slate-900 text-center mb-16">Meet the Graduates</h3>
+            
+            <!-- Grid for Officer Profiles -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                
+                <!-- Officer 1 (Template) -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x400/6B7280/FFFFFF?text=Officer" alt="Officer Photo" class="w-full h-64 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Officer Jane Doe</h4>
+                        <p class="text-slate-600 mt-2 italic">"Ready to serve and protect."</p>
+                    </div>
+                </div>
+
+                <!-- Officer 2 (Template) -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x400/6B7280/FFFFFF?text=Officer" alt="Officer Photo" class="w-full h-64 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Officer John Smith</h4>
+                        <p class="text-slate-600 mt-2 italic">"Committed to the community."</p>
+                    </div>
+                </div>
+
+                <!-- Officer 3 (Template) -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x400/6B7280/FFFFFF?text=Officer" alt="Officer Photo" class="w-full h-64 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Officer M. Garcia</h4>
+                        <p class="text-slate-600 mt-2 italic">"Integrity and Courage."</p>
+                    </div>
+                </div>
+
+                <!-- Officer 4 (Template) -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x400/6B7280/FFFFFF?text=Officer" alt="Officer Photo" class="w-full h-64 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Officer D. Brown</h4>
+                        <p class="text-slate-600 mt-2 italic">"Honor in service."</p>
+                    </div>
+                </div>
+
+                <!-- Add more officer templates here as needed -->
+                <!-- You can copy and paste the <div>...</div> blocks above to add more graduates -->
+
+            </div>
+        </section>
+
+        <!-- Our Training Staff Section -->
+        <section class="my-16 py-16 bg-white rounded-lg shadow-xl">
+            <h3 class="text-4xl font-bold text-slate-900 text-center mb-8">Our Training Staff</h3>
+            <p class="text-center text-lg text-slate-700 max-w-3xl mx-auto mb-12 px-6">
+                We extend our deepest gratitude to our trainers and instructors for their unwavering dedication, mentorship, and guidance throughout our time at the academy. Their commitment to excellence pushed us to be our best and prepared us for the challenges ahead.
+            </p>
+            
+            <!-- Grid for Trainer Profiles -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto px-6">
+                
+                <!-- Trainer 1 (Template) -->
+                <div class="bg-slate-50 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x300/6B7280/FFFFFF?text=Instructor" alt="Instructor Photo" class="w-full h-56 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Trainer Name Here</h4>
+                        <p class="text-blue-700 font-medium mt-1">Lead Training Officer</p>
+                    </div>
+                </div>
+
+                <!-- Trainer 2 (Template) -->
+                <div class="bg-slate-50 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/400x300/6B7280/FFFFFF?text=Instructor" alt="Instructor Photo" class="w-full h-56 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Trainer Name Here</h4>
+                        <p class="text-blue-700 font-medium mt-1">Firearms Instructor</p>
+                    </div>
+                </div>
+
+                <!-- Trainer 3 (Template) -->
+                <div class="bg-slate-50 rounded-lg shadow-lg overflow-hidden transform hover:-translate-Y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="httpsJ://placehold.co/400x300/6B7280/FFFFFF?text=Instructor" alt="Instructor Photo" class="w-full h-56 object-cover">
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-semibold text-slate-900">Trainer Name Here</h4>
+                        <p class="text-blue-700 font-medium mt-1">Defensive Tactics Instructor</p>
+                    </div>
+                </div>
+                
+                <!-- Add more <div>...</div> blocks here for more trainers -->
+
+            </div>
+        </section>
+
+        <!-- Academy Memories (Photo Gallery) Section -->
+        <section class="my-16 py-16">
+            <h3 class="text-4xl font-bold text-slate-900 text-center mb-16">Academy Memories</h3>
+            
+            <!-- Grid for Gallery Photos -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                
+                <!-- Gallery Image 1 -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/600x400/6B7280/FFFFFF?text=Memory" alt="Academy Memory" class="w-full h-auto object-cover aspect-video">
+                </div>
+
+                <!-- Gallery Image 2 -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https" alt="Academy Memory" class="w-full h-auto object-cover aspect-video">
+                </div>
+
+                <!-- Gallery Image 3 -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/600x400/6B7280/FFFFFF?text=Memory" alt="Academy Memory" class="w-full h-auto object-cover aspect-video">
+                </div>
+
+                <!-- Gallery Image 4 -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/600x400/6B7280/FFFFFF?text=Memory" alt="Academy Memory" class="w-full h-auto object-cover aspect-video">
+                </div>
+
+                <!-- Gallery Image 5 (Spans 2 columns on medium screens and up) -->
+                <div class="md:col-span-2 bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/1200x800/6B7280/FFFFFF?text=Group+Activity" alt="Academy Memory" class="w-full h-auto object-cover aspect-video">
+                </div>
+
+                <!-- Gallery Image 6 -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/600x400/6B7280/FFFFFF?text=Memory" alt="Academy Memory" class="w-full h-auto object-cover aspect-video">
+                </div>
+
+                <!-- Gallery Image 7 -->
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
+                    <img src="https://placehold.co/600x400/6B7280/FFFFFF?text=Memory" alt="Academy Memory" class="w-full h-auto object-cover aspect-video">
+                </div>
+
+                <!-- Add more gallery <div>...</div> blocks here -->
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 p-8 mt-16">
+        <div class="container mx-auto text-center">
+            <p>&copy; <span id="current-year"></span> Denton Police Department BPOC #22. All rights reserved.</p>
+            <p class="text-sm mt-2">This site is a celebration of the graduates and is not an official City of Denton webpage.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple script to automatically update the copyright year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
